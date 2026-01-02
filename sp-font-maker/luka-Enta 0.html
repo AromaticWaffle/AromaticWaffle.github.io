@@ -12,7 +12,7 @@
         /*font-size: 32px;*/ /* for slideshow */
         max-width: 960px;    /* 48 x 20 */
         margin: auto;
-        /*line-height: 1.5em;*/
+        /* line-height: 1em; */
         color: white;
         font-family: "Chalkboard SE", "Comic Sans MS", sans-serif;
     }
@@ -29,6 +29,7 @@
     .tp {
         font-family: 'luka Enta', 'Chalkboard SE', 'Comic Sans MS', sans-serif;
         font-size: 48px;
+        /* margin-top: 0em; */
     }
     textarea {
         font-size: 1em; 
@@ -39,13 +40,29 @@
         color: white; 
         padding: 1em;
     }
+    ruby {
+        line-height: 1;
+        /* margin-bottom: -100%; */
+    }
+    rt {
+        color: white;
+        font-family: "Chalkboard SE", "Comic Sans MS", sans-serif;
+        font-size: 0.25em;
+        /* line-height:1; */
+        /* margin-bottom: 100%; */
+        /* transform: translateY(-1em); */
+    }
+    smaller {
+        font-size: 0.65em
+    }
 </style>
 <h1><a href='luka-Enta.ttf'>luka Enta</a>, tan jan lili Enta</h1>
 
 <!-- Latin test -->
 <!-- <h1>Latin test: jelo <span class="tp">ijklmpstuw awen e lipu</span></h1> -->
 
-<span class="tp">
+<div class="tp">
+<!-- <div class="tp" id='wordlist'> -->
 <!-- spacing test -->
 <!--a　　akesi　　ala　　alasa　　ale　　anpa　　ante　　anu　　awen　　e　　en　　esun　　ijo　　ike　　ilo　　insa　　jaki　　jan　　jelo　　jo<br>
 kala　　kalama　　kama　　kasi　　ken　　kepeken　　kili　　kiwen　　ko　　kon　　kule　　kulupu　　kute　　la　　lape　　laso　　lawa　　len　　lete　　li<br>
@@ -62,7 +79,7 @@ epiku　　jasima　　linluwi　　majuna　　meso　　oko　　su<br><br>-->
 [<span style="color: red; opacity: .5;">._</span>][.._.]<br>
 [<span style="color: red; opacity: .5;">._</span><span style="color: yellow; opacity: .5;">._</span><span style="color: blue; opacity: .5;">._</span>]<br><br>-->
 
-<!-- word list -->
+<!-- (no ruby)
 a akesi ala alasa ale anpa ante anu awen e en esun ijo ike ilo insa jaki jan jelo jo<br>
 kala kalama kama kasi ken kepeken kili kiwen ko kon kule kulupu kute la lape laso lawa len lete li<br>
 lili linja lipu loje lon luka lukin lupa ma mama mani meli mi mije moku moli monsi mu mun musi<br>
@@ -76,7 +93,25 @@ A kinn kiwenn 20 sewii tawaa kamaa mii sinaa onaa nenaa lupaa monsii sinpinn | s
 linluwii misikekee namakoo monsi2 sinpin2 sewi2 ten ZZ [`mu&& mu, mu,, mu,,, mu,,,, mu,: mu" mu*]<br>
 san po kamalawala owe soto teje jonke kepa kokosila lesijo lo pa penpo ojuta sann | Linku Manka kama-sona pt <br>
 an teki tenkala Kima Takula soo oo weli kije je tesantakalu ZM tetoweli ZN woe pen wuwojiti yupekosi kpke <br><br>
-</span>
+-->
+
+<!-- word list -->
+a akesi ala alasa ale anpa ante anu awen e en esun ijo ike ilo insa jaki jan jelo jo<br>
+kala kalama kama kasi ken kepeken kili kiwen ko kon kule kulupu kute la lape laso lawa len lete li<br>
+lili linja lipu loje lon luka lukin lupa ma mama mani meli mi mije moku moli monsi mu mun musi<br>
+mute nanpa nasa nasin nena ni nimi noka o olin ona open pakala pali palisa pan pana pi pilin pimeja<br>
+pini pipi poka poki pona pu sama seli selo seme sewi sijelo sike sin sina sinpin sitelen sona soweli suli<br>
+suno supa suwi tan taso tawa telo tenpo toki tomo tu unpa uta utala walo wan waso wawa weka wile<br>
+[　] . : <ruby>H  <rt>H </rt>E  <rt>E </rt>i  <rt>I </rt>j  <rt>J </rt>k  <rt>K </rt>l  <rt>L </rt>m  <rt>M </rt>N  <rt>N </rt>O  <rt>O </rt>p  <rt>P </rt>s  <rt>S </rt>t  <rt>T </rt>u  <rt>U </rt>w  <rt>W </rt>te <rt>te</rt>to<rt> to </rt></ruby><br>
+kijetesantakalu kin kipisi ku lanpan leko <ruby>misikeke <rt>misikeke</rt> monsuta n <rt></rt>namako <rt>namako</rt> soko tonsi <rt></rt>a- <rt>a-</rt>n--<rt> n-- </rt> 　<rt></rt>tp <rt><small>toki-pona</small></rt>pi(<rt>pi( </rt>janv<rt>janv </rt> Enta)<rt> Enta )</rt></ruby><br>
+<ruby>epiku <rt>epiku</rt>jasima <rt></rt>linluwi <rt>linluwi</rt>majuna <rt>majuna</rt>meso oko <rt></rt>su <rt>su</rt>su2 <rt>su2</rt>su3 <rt>su3</rt>eliki <rt>eliki</rt>ZZ <rt></rt>kana <rt>kana</rt>ta <rt>ta</rt>kiki <rt>kiki</rt>apeja <rt>apeja</rt>aku <rt>aku</rt>oki <rt>oki</rt>unu <rt>unu</rt>sutopatikuna <rt><smaller>sutopatikuna</smaller></rt>nilikalanen <rt><smaller>nilikalanen</smaller></rt></ruby><br>
+<ruby>A <rt>A</rt>kinn <rt>kinn</rt>kiwenn <rt>kiwenn</rt>20 <rt>20</rt>sewii <rt>sewii</rt>tawaa <rt>tawaa</rt>kamaa <rt>kamaa</rt>mii <rt>mii</rt>sinaa <rt>sinaa</rt>onaa <rt>onaa</rt>nenaa <rt>nenaa</rt>lupaa <rt>lupaa</rt>monsii <rt>monsii</rt>sinpinn <rt>sinpinn</rt>| <rt></rt>saan <rt>saan</rt>se <rt>se</rt>~ <rt>~</rt>\ijo/</ruby><br>
+<ruby>linluwii <rt>linluwii</rt>misikekee <rt><small>misikekee</small></rt>namakoo <rt><small>namakoo</small></rt>monsi2 <rt>monsi2</rt>sinpin2 <rt>sinpin2</rt>sewi2 <rt>sewi2</rt>ten <rt>ten</rt>ZZ <rt>ZZ or |</rt>[<rt></rt>` <rt>`</rt>mu&& <rt>&&</rt>mu, <rt>mu,</rt>mu,, mu,,, <rt></rt>mu,,,, <rt>mu,,,,</rt>mu,: <rt>mu,:</rt>mu<rt></rt>" <rt>"</rt>mu<rt></rt>* <rt>*</rt>]</ruby><br>
+<ruby>san <rt>san</rt>po <rt>po</rt>kamalawala <rt><smaller>kamalawala</smaller></rt>owe <rt>owe</rt>soto <rt>soto</rt>teje <rt>teje</rt>jonke <rt>jonke</rt>kepa <rt>kepa</rt>kokosila <rt>kokosila</rt>lesijo <rt>lesijo</rt>lo <rt>lo</rt>pa <rt>pa</rt>penpo <rt>penpo</rt>ojuta <rt>ojuta</rt>sann <rt>sann</rt>| <rt></rt>Linku <rt>Linku</rt>Manka <rt>Manka</rt>kama-sona <rt><smaller>kama-sona</smaller></rt>pt <rt>pt</rt></ruby><br>
+<ruby>an <rt>an</rt>teki <rt>teki</rt>tenkala <rt>tenkala</rt>Kima <rt>Kima</rt>Takula <rt>Takula</rt>soo <rt>soo</rt>oo <rt>oo</rt>weli <rt>weli</rt>kije <rt>kije</rt>je <rt>je</rt>tesantakalu <rt><smaller>tesantakalu</smaller></rt>ZM <rt></rt>tetoweli <rt>tetoweli</rt>ZN <rt></rt>woe <rt>woe</rt>pen <rt>pen</rt>wuwojiti <rt><small>wuwojiti</small></rt>yupekosi <rt><small>yupekosi</small></rt>kpke <rt><small>kepekene</small></rt></ruby><br>
+</div>
+<!-- <button onclick="toggleRuby()">Toggle ruby</button> -->
+<br>
 <p class="tp">
 <!-- jan [sama olin namako jaki ala] li sitelen e pu kepeken wawa mute. -->
 󱤑󱦐󱥖󱥅󱥸󱤐󱤂󱦑󱤧󱥠󱤉󱥕󱤙󱥵󱤼󱦜
@@ -189,4 +224,13 @@ function redrawTextarea(e) {
 //     element.style.height = "640px";
 //     element.style.height = (25+element.scrollHeight)+"px";
 //   }
+// function toggleRuby() {
+//   var ruby = true;
+//   var x = document.getElementById("wordlist");
+//   if (x.innerHTML === "Hello") {
+//     x.innerHTML = "Swapped text!";
+//   } else {
+//     x.innerHTML = "Hello";
+//   }
+// } 
 </script>
